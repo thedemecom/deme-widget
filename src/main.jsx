@@ -9,13 +9,11 @@ const installWidget = (elementId, receiverAddress, tokenList) => {
         receiverAddress={'0x0D02E26F50DFdc188DbB2cc0753Cb1c54b580a96'}
         tokenList={[
           {
-            icon: 'https://s2.coinmarketcap.com/static/img/coins/64x64/4687.png',
             name: 'BUSD',
             address: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
-            decimal: 18,
+            decimal: 18
           },
           {
-            icon: 'https://s2.coinmarketcap.com/static/img/coins/64x64/825.png',
             name: 'USDT',
             address: '0x55d398326f99059ff775485246999027b3197955',
             decimal: 18
@@ -40,4 +38,4 @@ window.addEventListener('load', () => {
     }
     window.__demes = []
   }
-})
+})  

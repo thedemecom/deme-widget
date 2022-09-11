@@ -191,4 +191,3 @@ export default function({
     </Web3ReactProvider>
   )
 }
-

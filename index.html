@@ -10,8 +10,11 @@
   <body>
     <div id="root">
       <div id="widget"></div>
+      <div id="claim"></div>
     </div>
     <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="/src/claim-widget.jsx"></script>
+
     <script defer>
       window.__demes = [['widget', '0x0D02E26F50DFdc188DbB2cc0753Cb1c54b580a96', [{
             icon: 'https://s2.coinmarketcap.com/static/img/coins/64x64/4687.png',
@@ -25,6 +28,8 @@
             address: '0x55d398326f99059ff775485246999027b3197955',
             decimal: 18
           }]]]
+
+      window.__deme_claim = 'claim'
     </script>
   </body>
 </html>
