@@ -1,0 +1,19 @@
+.button {
+  padding: 8px 16px;
+  background-color: #18191F;
+  border-radius: 16px;
+  text-align: center;
+  color: #FFF;
+  width: auto;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+}
+
+.disabled{
+  pointer-events: none;
+  background-color: #ccc;
+  color: #000;
+}

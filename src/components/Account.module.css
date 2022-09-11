@@ -1,0 +1,62 @@
+.account {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.address {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+  border-radius: 16px;
+  padding: 8px 16px;
+  background-color: #18191F;
+  border-radius: 16px;
+  color: #FFF;
+}
+
+.tooltip{
+  display: block;
+  position: absolute;
+  background: rgba(0,0,0,.75);
+  border-radius: 2px;
+  color: #fff;
+  font-size: 14px;
+  padding: 6px 10px;
+  top: 100%;
+  pointer-events: none;
+  white-space: nowrap;
+  transform: translate3d(0,-10px,0);
+  opacity: 0;
+  transition: all .15s ease-in-out;
+}
+
+.address:hover + .tooltip {
+  opacity: 1;
+  transform: translate3d(0,0,0);
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 0px;
+  border-radius: 50%;
+  border: 6px solid #000;
+  border-color: #000 transparent #000 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

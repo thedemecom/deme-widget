@@ -1,0 +1,6 @@
+export const NetworkContextName = 'DEME'
+
+export const ONCE = 'ONCE'
+export const RECURRING_WEEKLY = 'RECURRING_WEEKLY'
+export const RECURRING_MONTHLY = 'RECURRING_MONTLY'
+export const RECURRING_OPTIONS = [ONCE, RECURRING_WEEKLY, RECURRING_MONTHLY]

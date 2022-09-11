@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins&display=swap');
+
+.app {
+  /* background: red; */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  position: relative;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-bottom: 8px;
+  
+}
+.token {
+  flex: 1 0;
+  margin-right: 10px; 
+}
+.recurring {
+  flex: 1 0;
+}
